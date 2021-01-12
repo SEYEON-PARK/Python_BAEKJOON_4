@@ -5,8 +5,8 @@ A=int(input("0보다 큰 정수를 입력하시오. : ")) # 정수 A 입력받�
 while(A<=0):
     if(A<=0):
       print("잘못 입력하셨습니다.")
-      A=int(input("0보다 큰 정수를 입력해주세요. : ")) # 정수 A가 올바르게 입력되었는지 확인!
-    continue
+      A=int(input("0보다 큰 정수를 입력해주세요. : "))
+    continue # 정수 A가 올바르게 입력되었는지 확인!
     
 B=int(input("10보다 작은 정수를 입력하시오. : ")) # 정수 B 입력받기.
 
@@ -14,6 +14,6 @@ while(B>=10):
     if(B>=10):
       print("잘못 입력하셨습니다.")
       B=int(input("10보다 작은 정수를 입력해주세요. : "))
-    continue
+    continue # 정수 B가 올바르게 입력되었는지 확인!
 
 print(A-B)
